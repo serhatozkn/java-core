@@ -5,7 +5,7 @@ import java.util.Optional;
 public class OrElseGetExample {
 
     public static void main(final String[] args) {
-        Optional<Car> car = Optional.ofNullable(null);
+        Optional<Car> car = Optional.empty();
 
         System.out.println("Expecting constructor to be called");
         Car honda = car.orElse(new Car());
