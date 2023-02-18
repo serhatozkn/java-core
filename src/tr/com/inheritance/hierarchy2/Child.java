@@ -107,4 +107,9 @@ public class Child extends Parent {
     public void noThrows() throws NullPointerException {
 
     }
+
+    @Override
+    public int getInt() {
+        return 0;
+    }
 }

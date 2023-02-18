@@ -25,6 +25,10 @@ public class Parent {
 
     }
 
+    public int getInt() {
+        return 0;
+    }
+
 
 
 }
